@@ -13,7 +13,7 @@ public class UserTokenService {
 
     private String signingKey;
 
-    public UserTokenService(@Value("${signingKey:}") String signingKey) {
+    public UserTokenService(@Value("${jwtSigningKey:}") String signingKey) {
         this.signingKey = signingKey;
     }
 
