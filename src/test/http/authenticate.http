@@ -1,0 +1,5 @@
+POST localhost:8080/api/v1/authenticate
+{ "username": "test", "password": "test" }
+
+###
+

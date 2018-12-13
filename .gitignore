@@ -36,3 +36,5 @@ venv
 .DS_Store
 
 checkpoint
+
+.attach_pid*
